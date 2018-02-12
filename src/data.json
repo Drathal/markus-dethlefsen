@@ -1,0 +1,110 @@
+{
+    "menu" : [
+        {
+            "text" : "home",
+            "link": "/",
+            "component" : "Home"
+        },
+        {
+            "text" : "about",
+            "link": "/about",
+            "component" : "About"
+        },
+        {
+            "text" : "knowledge",
+            "link": "/knowledge",
+            "component" : "Knowledge"
+        },
+        {
+            "text" : "vita",
+            "link": "/vita",
+            "component" : "Vita"
+        },
+        {
+            "text" : "contact",
+            "link": "/contact",
+            "component" : "Contact"
+        }
+    ],
+    "address" : {
+        "name" : "Markus",
+        "surname" : "Dethlefsen",
+        "address1" : "Achter Lüttmoor 2c",
+        "address2" : "",
+        "zip" : "22559",
+        "city" : "Hamburg",
+        "country" : "Germany",
+        "email" : "job@markus-dethlefsen.de"
+    },
+    "vita" : [
+        {
+            "to" : "01.01.2017",
+            "title": "Senior Software Architect",
+            "company": "Stylelounge GmbH"
+        },
+        {
+            "to" : "31.12.2016",
+            "title": "Senior Frontend Entwickler",
+            "company": "Cleverbridge AG"
+        },
+        {
+            "to" : "31.10.2014",
+            "title": "Senior Frontend Entwickler",
+            "company": "Control Expert GmbH"
+        },
+        {
+            "to" : "31.7.2014",
+            "title": "System Engineer",
+            "company": "Cleverbridge AG"
+        },
+        {
+            "to" : "31.1.2014",
+            "title": "Senior Frontend Entwickler",
+            "company": "Questback AG"
+        },
+        {
+            "to" : "31.4.2002",
+            "title": "Lotus Notes Entwickler",
+            "company": "CPM-O"
+        },
+        {
+            "to" : "31.9.2001",
+            "title": "Web Entwickler",
+            "company": "Viaone GmbH"
+        },
+        {
+            "to" : "31.5.2000",
+            "title": "Satz / Layout / Druckvorstufe",
+            "company": "Druckerei Enger"
+        },
+        {
+            "to" : null,
+            "title": "Buchsetzer",
+            "company": "Reemers EDV"
+        },
+        {
+            "to" : null,
+            "title": "Satz / Lazout",
+            "company": "Copyservice Inger"
+        }
+    ],
+    "knowlege" : [
+        "frontend", "backend", "full stack",
+        "javascript", "typescript", "node.js", "lua",
+        "docker", "kuberneetes", "microservices",
+        "jenkins", "wercker", "travis CI", "circle CI",
+        "jest", "ava", "mocha", "jasmine", "gherkin", "cucumber", "nightwatch",
+        "SQL", "noSQL",
+        "CSS", "HTML", "LESS", "SASS",
+        "webpack", "rollout", "gulp", "grunt",
+        "react", "angular", "vue",
+        "scrum", "kanban",
+        "git", "mercurial", "cvs", "subversion", "perforce",
+        "OSX" , "windows", "linux", "bash",
+        "XML", "XSLT", "xpath",
+        "layout", "design",
+        "jira",
+        "clean code", "functional programming", "continous delivery",
+        "photoshop", "indesign", "illustrator", "framemaker"
+    ]
+}
