@@ -1,5 +1,1 @@
-import { asyncComponent } from 'react-async-component';
-
-export default asyncComponent({
-    resolve: () => import('./Contact')
-});
+export { default } from './Contact.js';

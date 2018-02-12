@@ -4,7 +4,6 @@ import SiteData from '../../data.json'
 import Menu from '../Menu';
 import Content from '../Content';
 
-
 class App extends Component {
     render() {
         return (
