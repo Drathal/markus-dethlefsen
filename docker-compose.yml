@@ -1,0 +1,13 @@
+version: '2'
+services:
+  app:
+    build: .
+    command: yarn run start
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - "3000:3000"
+      - "35729:35729"
+    environment:
+      NODE_ENV: develop

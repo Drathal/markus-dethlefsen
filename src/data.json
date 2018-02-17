@@ -89,8 +89,8 @@
         }
     ],
     "knowlege" : [
-        "frontend", "backend", "full stack",
         "javascript", "typescript", "node.js", "lua",
+        "frontend", "backend", "full stack",
         "docker", "kuberneetes", "microservices",
         "jenkins", "wercker", "travis CI", "circle CI",
         "jest", "ava", "mocha", "jasmine", "gherkin", "cucumber", "nightwatch",
