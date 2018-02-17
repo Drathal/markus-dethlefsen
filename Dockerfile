@@ -5,14 +5,10 @@ CMD serve -s build
 
 EXPOSE 5000
 
-ADD yarn.lock /yarn.lock
-ADD package.json /package.json
-
-ENV NODE_PATH=/node_modules
-ENV PATH=$PATH:/node_modules/.bin
+COPY yarn.lock /yarn.lock
+COPY package.json /package.json
 RUN yarn
 
-WORKDIR /usr/app
-ADD . /usr/app
+COPY . .
 
 RUN yarn run build --production
