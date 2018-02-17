@@ -1,8 +1,11 @@
+# my little homepage
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## dev
 
     docker-compose up
+
 ## build production
 
     docker build -t app .

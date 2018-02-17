@@ -4,8 +4,6 @@ RUN yarn global add serve
 CMD serve -s build
 
 EXPOSE 5000
-EXPOSE 3000
-EXPOSE 35729
 
 ADD yarn.lock /yarn.lock
 ADD package.json /package.json
