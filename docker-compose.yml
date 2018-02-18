@@ -1,4 +1,4 @@
-version: '2'
+version: '3.4'
 services:
   app:
     build: .
@@ -10,4 +10,5 @@ services:
       - "3000:3000"
       - "35729:35729"
     environment:
-      NODE_ENV: develop
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true

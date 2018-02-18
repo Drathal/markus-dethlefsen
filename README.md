@@ -8,8 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## build production
 
-    docker build -t app .
+    docker build -f Dockerfile.prod -t app .
 
 ## run production
 
-    docker run -it --rm -p 5000:5000 --name markus-dethlefsen app
+    docker run -it --rm -p 80:80 --name markus-dethlefsen app
